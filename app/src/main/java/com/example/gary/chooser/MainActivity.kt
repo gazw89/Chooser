@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val k = lines.get(j - 1)
 
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("The choice is....")
+        builder.setTitle("The choice is...")
         builder.setMessage(k)
         builder.setNegativeButton("OK",{ dialogInterface: DialogInterface, i: Int -> })
         builder.show()
